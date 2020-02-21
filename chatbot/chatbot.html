@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Biscuit-CHAT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilo.css" rel="stylesheet">
+    <meta name="author" content="Jhonata Vinicius">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index" />
+    <meta name="language" content="pt-br" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon3.png">
+</head>
+
+<body>
+
+    <main class="page__main">
+        <div class="block--background">
+            <div class="chatbot__overview">
+                <div class="circle2">
+                    <img src="../images/assistente-jhony.jpg" alt="">
+                </div>
+                <ul class="chatlist">
+
+                    <li class="bot__output bot__output--standard">Olá, eu sou Biscuit, assistente virtual de Jhonata</li>
+
+                    <li class="bot__output bot__output--standard">
+                        <span class="bot__output--second-sentence">Bem Vindo a o batepapo comigo espero que tire todas as suas duvidas </span>
+                        <ul>
+                            <li class="input__nested-list">Algo <span class="bot__command">sobre</span> Jhonata</li>
+                            <li class="input__nested-list"> <span class="bot__command">hobbies</span> de Jhonata</li>
+                            <li class="input__nested-list">Talvez eu possa <span class="bot__command">ajudar</span> (Para mais instruções)</li>
+                            <li class="input__nested-list">Digite<span class="bot__command"> comandos</span> para obter uma lista de todos os comandos </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="chatbox-area">
+                <form action="" id="chatform">
+                    <textarea placeholder="Insira aqui sua pergunta" class="chatbox" name="chatbox" resize: "none" minlength="2"></textarea>
+                    <input class="submit-button" type="submit" value="send">
+                </form>
+            </div>
+            <div class="block--background"></div>
+
+    </main>
+
+
+    <script src="chat.js"></script>
+</body>
+
+</html>
