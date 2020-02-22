@@ -449,7 +449,7 @@
                     </div>
                 </div>
                 <div class="d-sm-flex justify-content-center">
-                     <form name="contact" method="POST" action="/" netlify>
+                     <form  name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                         <div class="row d-flex justify-content-center flex-row flex-wrap" style="color: white;" id="contatoemail">
                             <h5>Email:Jhon.araujo2488@gmail.com</h5>
                         </div>
@@ -489,6 +489,7 @@
                                 <label for="exampleFormControlTextarea1">Mensagem <small>(obrigatório)</small></label>
                                 <textarea class="form-control"name="message" id="exampleFormControlTextarea1" placeholder="Escreva aqui" rows="5"></textarea>
                             </div>
+			     <div data-netlify-recaptcha="true"></div>
                             <div align="center">
                                 <button type="submit" class="button primary-button">Enviar</button>
                             </div>
