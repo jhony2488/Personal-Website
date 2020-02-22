@@ -453,7 +453,7 @@
                         <div class="row d-flex justify-content-center flex-row flex-wrap" style="color: white;" id="contatoemail">
                             <h5>Email:Jhon.araujo2488@gmail.com</h5>
                         </div>
-                        <div class="row d-flex justify-content-center flex-row flex-wrap" align="center" style="color: white;" id="contatoemail">
+                        <div class="row d-flex justi id="my-form"fy-content-center flex-row flex-wrap" align="center" style="color: white;" id="contatoemail">
                             <h5>Phone:+55(81)98769-7474</h5>
                         </div>
                         <div class="row d-flex justify-content-center flex-row flex-wrap" align="center" style="color: white;" id="contatoemail">
@@ -549,6 +549,17 @@
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/script.js"></script>
+
+	<script>
+	$("#my-form").submit(function(e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you!");
+  });
+});
+	</script>
 
 
 
