@@ -451,7 +451,7 @@
                 <div class="d-sm-flex justify-content-center">
 
 
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" id="my-form" method="POST" data-netlify="true">
                         <div class="row d-flex justify-content-center flex-row flex-wrap" style="color: white;" id="contatoemail">
                             <h5>Email:Jhon.araujo2488@gmail.com</h5>
                         </div>
@@ -548,7 +548,16 @@
     <script src="./js/isotope.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js">
+    $("#my-form").submit(function(e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you!");
+  });
+});
+    </script>
 
 
 
