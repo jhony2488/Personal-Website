@@ -82,7 +82,7 @@
                         <h4 class="title-text text-uppercase" style="color:black !important;">Sou Técnico em Automação Industrial e <br> desenvolvedor Web </h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <a href="https://jhony2488.github.io/CV-JHONATA/" target="blanck"><button type="button" class="btn button primary-button mr-2 text-uppercase">CV 
+                                <a href="curriculo/jhonata.pdf" target="blanck"><button type="button" class="btn button primary-button mr-2 text-uppercase">CV 
                                 </button></a>
                                 <a href="curriculo/jhonata.pdf" download="jhonata.pdf" target="blanck"><button type="button" class="btn button secondary-button mr-4 text-uppercase">Obter CV </button></a>
                             </div>
@@ -273,8 +273,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Finanças</h4>
-                            <span class="text-secondary">Mais recente, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Minimul Desing</h4>
+                            <span class="text-secondary apagar">Latest, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -286,8 +286,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Empresa de manutenção</h4>
-                            <span class="text-secondary">Popular, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Paint Wall</h4>
+                            <span class="text-secondary apagar">Popular, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -299,8 +299,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Site empresarial</h4>
-                            <span class="text-secondary">Popular, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Female light</h4>
+                            <span class="text-secondary apagar">Popular, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -312,8 +312,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Calculadora com javaScript</h4>
-                            <span class="text-secondary">Proximas, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Fourth Air</h4>
+                            <span class="text-secondary apagar">Upcoming, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -325,8 +325,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Simples loja virtual</h4>
-                            <span class="text-secondary">Continua, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Muliple fown</h4>
+                            <span class="text-secondary apagar">Upcoming, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -338,8 +338,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Calculadora flex</h4>
-                            <span class="text-secondary">Segue, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Together sign</h4>
+                            <span class="text-secondary apagar">Following, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -351,8 +351,8 @@
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Blog HSHUNT</h4>
-                            <span class="text-secondary">Segue, Portfolio</span>
+                            <h4 class="text-uppercase apagar">Green Heaven</h4>
+                            <span class="text-secondary apagar">Following, Portfolio</span>
                         </div>
                     </div>
                 </div>
@@ -451,7 +451,7 @@
                 <div class="d-sm-flex justify-content-center">
 
 
-                    <form name="contact" id="my-form" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true">
                         <div class="row d-flex justify-content-center flex-row flex-wrap" style="color: white;" id="contatoemail">
                             <h5>Email:Jhon.araujo2488@gmail.com</h5>
                         </div>
@@ -549,15 +549,16 @@
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/script.js">
-    $("#my-form").submit(function(e) {
-  e.preventDefault();
+        $("#my-form").submit(function(e) {
+            e.preventDefault();
 
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
-  });
-});
+            var $form = $(this);
+            $.post($form.attr("action"), $form.serialize()).then(function() {
+                alert("Thank you!");
+            });
+        });
     </script>
+
 
 
 
