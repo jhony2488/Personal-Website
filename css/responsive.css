@@ -83,7 +83,7 @@
         padding: 3% 4%;
     }
 }
-@media(min-width:2000px){
+@media(min-width:2100px){
 .site-banner {
 border: 1px solid black;
     height: 900px;
