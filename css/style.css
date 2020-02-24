@@ -441,4 +441,7 @@ footer.footer-area .social a:hover>i {
 #port {
     margin-left: 10px;
 }
+.apagar {
+    visibility: hidden;
+}
 
