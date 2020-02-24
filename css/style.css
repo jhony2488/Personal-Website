@@ -82,15 +82,12 @@ html {
 
 .site-main .site-banner .banner-image>img {
     padding: 7rem 0;
-    width: 80rem;
+    width: 70rem;
 }
 
 
 
-/* End Banner Area */
 
-
-/* Start About Area */
 
 .site-main .about-area {
     padding: 8rem 5rem;
@@ -106,8 +103,6 @@ html {
     padding: .4rem 0;
 }
 
-
-/* End About Area */
 
 
 /* Start Brand Area */
@@ -443,5 +438,8 @@ footer.footer-area .social a:hover>i {
 }
 .apagar {
     visibility: hidden;
+}
+#imagem-invi{
+margin-top:-1em;
 }
 
