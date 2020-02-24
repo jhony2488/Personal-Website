@@ -86,7 +86,7 @@
 @media(min-width:2100px){
 .site-banner {
 border: 1px solid black;
-    height: 900px;
+
 	min-height:100%;
   
     opacity: 0.7;
