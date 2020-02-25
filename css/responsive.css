@@ -11,6 +11,7 @@
         padding: 2%;
         margin: 0%;
     }
+	.contatoemail{ display:none;}
     .subscribe-us-area {
         margin-left: 0.4em !important;
         width: 100% !important;
